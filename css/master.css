@@ -1,0 +1,27 @@
+/* UNIVERSAL */
+*{
+	padding: 0;
+	margin: 0;
+}
+:root{
+	--base: #0f0;
+	--spacing: 10px;
+	--blur: 10px;
+}
+
+/* BODY */
+body{
+}
+
+.js{
+	color: var(--base);
+}
+
+img{
+	background: var(--base);
+	height: 300px;
+	width: 400px;
+	/* border: 15px solid #000; */
+	padding: var(--spacing);
+	filter: blur(var(--blur));
+}
